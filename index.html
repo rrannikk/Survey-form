@@ -2,8 +2,9 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-   
+
     <link rel="stylesheet" href="StyleSheet2.css">
+    <script src="script.js"> </script>
     <meta charset="utf-8" />
     <title>Survey Form</title>
 </head>
@@ -11,12 +12,12 @@
     <h1 id="title">Survey Form</h1>
     <div id"form-outer">
 
-        <p id="description">  
-        
+        <p id="description">
+
         Let us know how we can improve freeCodeCamp
-        
+
         </p>
-        <form id="survey-form" method="get"  action="https://crossorigin.me/https://freecodecamp.com"  > 
+        <form id="survey-form" method="get"  action="https://crossorigin.me/https://freecodecamp.com"  >
 
             <div class="rowTab">
                 <div class="labels">
@@ -62,7 +63,7 @@
 
                      <div class="rightTab">
                          <ul style="list-style: none;">
-                             <li class="radio"><label>Definitely<input name="radio-buttons" 
+                             <li class="radio"><label>Definitely<input name="radio-buttons"
               value="1"           type="radio" class="userRatings" ></label></li>
                                        <li class="radio"><label>maybe<input name="radio-buttons"
               value="2"         type="radio" class="userRatings" ></label></li>
@@ -87,12 +88,32 @@
                         </div>
                        <div class="rowTab">
                            <div class="labels">
-                               <label for="preferences">Thing that should be improved in the future<br >(check all that apply):</label>
+                               <label for="preferences">Things that should be improved in the future<br >(check all that apply):</label>
                                </div>
                            <div class="rightTab">
                                <ul id="preferences" style="list-style: none;">
                                    <li class="checkbox"><label><input name="prefer" value="1"
-                          type="checkbox" class="userRatings" >Front-end Projects</label></li>
+                                type="checkbox" class="userRatings" >Front-end Projects</label></li>
+                                   <li class="checkbox"><label><input name="prefer" value="2"
+                               type="checkbox" class="userRatings" />Back-end projects</label></li>
+                               <li class="checkbox"><label><input name="prefer" value="3"
+                                 type="checkbox" class="userRatings">Data Visualization</label></li>
+                                 <li class="checkbox"><label><input name="prefer" value="4"
+                                   type="checkbox" class="userRatings">Challenges</label></li>
+                                   <li class="checkbox"><label><input name="prefer" value="5"
+                                     type="checkbox" class="userRatings">Open Source Community</label></li>
+                                     <li class="checkbox"><label><input name="Prefer" Value="6"
+                                      type="checkbox" class"userRatings">Gitter help rooms</label></li>
+
+
+
+
+
+
+
+
+
+
 
                                </ul>
 
